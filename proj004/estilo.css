@@ -1,0 +1,44 @@
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+    
+li {
+    background-color: #4a4a4a;
+    padding: 63px 33px 63px 100px;
+    font-family: 'Oswald',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-image: url(quadrado.png);
+    background-repeat: no-repeat;
+    background-position: 35px center;
+    margin: 3px 0;
+}
+
+li:hover {
+    background-color: #6e6e6e;
+}
+
+.feito:hover {
+    background-color: #52be7f;
+}
+
+.feito {
+    background-color: #27ae60;
+    background-image: url(done.png);
+}
+
+a {
+   text-decoration-line: none;
+   color: #ffffff;
+   display: block;
+   background-image: url(arrow-right.png);
+   background-repeat: no-repeat;
+   background-position: right center;
+   -webkit-font-smoothing: antialiased;
+}
+
