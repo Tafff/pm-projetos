@@ -1,0 +1,70 @@
+
+
+
+
+body {
+    background-color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+#relatorio {
+    display: block;
+    background-color: #fff;
+    margin: 30px;
+    padding: 23px;
+    width: 1150px;
+    height: 700px;
+}
+
+#relatorio p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 50px;
+    
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    padding: 15px 50px;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: #eeeeee;
+}
+
+table {
+    
+    border-spacing: none;
+}
+
+thead {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+tbody {
+    font-size: 13px;
+    font-weight: 400;   
+}
+
+tr#footer td {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;    
+}
+
+tr#footer a {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#selecao {
+    padding-left: 10px;
+}
