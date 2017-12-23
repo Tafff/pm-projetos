@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Proj009</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="webfontkit-20171117-075425/">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header> 
+         <h2>checkout</h2>
+         <nav>
+             <ul>
+                 <li><a href="#shipping">Shipping></a></li>
+                 <li><a href="payment"><span>payment method></span></a></li>
+                 <li><a href="confirmation">confirmation></a></li>
+             </ul>
+         </nav>
+    </header>
+    
+    <section id="principal">
+        <div class="esquerda">
+           <div class="wallet">
+              <h3>Wallet</h3>
+              <ul>
+                 <li><img src="cards/card-visa.png"><br><span>Ending in 1234</li></span>
+                 <li><img src="cards/card-mastercard.png"><br><span>Ending in 2222</span></li>
+                 <li><img src="cards/card-discover.png"><br><span>Ending in 1111</span></li>
+             </ul>
+           </div> 
+              
+            
+            <div class="newcard">
+             <p>New Card</p>
+              <form>
+                <ul>
+                    <li><input type="text" placeholder="Name on card"></li>
+                    <li><input type="text" placeholder="1111-1111-1111-1112"></li>
+                    <li><input  class="data/cvc"type="text" placeholder="MM/YY"></li>
+                    <li><input  class="data/cvc"type="text" placeholder="CVC"></li>
+                    <li class="addcard"><input type="checkbox">
+                <label>Add card to wallet</label></li>
+                    <button>Continue</button>
+        
+                </ul>
+              </form>
+            </div>
+         </div>
+        
+        
+        
+        
+        
+        <div class="direita">
+            <form >
+                <ul class="produtos">
+                    <li>
+                    <img src="imagens/BOTA.png">
+                    <label class="nome">The Chelsea Boot</label>
+                    <small>$235</small><br>
+                    <label class="cor">Black</label><br>
+                    <label class="quant">Quantity: 1</label>
+                    </li>
+                    
+                    <li>
+                    <img src="imagens/MOCHILA.png">
+                    <label class="nome">The Twill Snap Backpack</label>
+                    <small>$65</small><br>
+                    <label class="cor">Reverse Denim + Brown leather</label><br>
+                    <label class="quant">Quantity: 1</label>   
+                    </li>
+                    
+                    <li>
+                    <img src="imagens/BOLSA.png">
+                    <label class="nome">The Twill Zip Tote</label>
+                    <small>$48</small><br>
+                    <label class="cor">Reverse Denim + Black leather</label><br>
+                    <label class="quant">Quantity: 1</label> 
+                    </li>
+                    
+                    <li class="ultima">
+                    <img src="imagens/CACHECOL.png">
+                    <label class="nome">The Chunky Wool Scarf</label>
+                    <small>$50</small><br>
+                    <label class="cor">Black</label><br>
+                    <label class="quant">Quantity: 1</label>     
+                    </li>
+                </ul>
+                
+                <form >
+                   <ul class="subtotal">
+                     <li>
+                       <label>subtotal</label>
+                       <small>$398</small>
+                     </li>
+                     
+                     <li>
+                     <label>shipping</label>
+                     <small>Free</small>
+                     </li>
+                     
+                     <li>
+                     <label>Taxes</label>
+                     <small>12.12</small>
+                     </li>
+                   </ul>
+                </form>
+                
+                <div class="total">
+                    <span>total</span><small>$410.12</small>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

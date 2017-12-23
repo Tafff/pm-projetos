@@ -1,0 +1,239 @@
+body {
+     -webkit-font-smoothing: antialiased;
+    font-family: 'muli', sans-serif;
+}
+
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: fff;
+    display: flex;
+    border-bottom: 1px solid #000000;
+}
+
+h2 {
+    font-size: 18px;
+    color: #5e5e5e;
+    text-transform: capitalize;
+    padding-left: 25px; 
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav li a {
+    text-decoration: none;
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: regular;
+    color:#bdbdbd;  
+}
+
+header nav li a span {
+    color: #4a4a4a;
+}
+
+
+
+/*PRINCIPAL.ESQUERDA*/
+
+
+section#principal {
+    display: flex;
+}
+
+
+/*WALLET*/
+
+ .esquerda {
+    width: 50%;
+    height: 300px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 
+}
+
+.esquerda .wallet ul {
+    display: flex;
+}
+
+.wallet h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777879;
+    padding-left: 25px;
+}
+    
+.esquerda .wallet li {
+    list-style: none;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #c6c6c6;
+} 
+
+.esquerda .wallet li img {
+    align-content: center;
+}
+
+ 
+.esquerda .wallet li:hover {
+    border: 1px solid #d1e2f6;
+    border-radius: 3px;
+    background-color: #f5f9fd;
+}
+
+
+/*NEWCARD*/
+
+.esquerda .newcard p{
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777879;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-left: 25px;  
+    margin-right: 25px;
+}    
+    
+section#principal .esquerda .newcard li{
+    display: block;
+    padding: 15px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: regular;
+    border: none;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+}  
+
+section#principal .esquerda .newcard li input {
+    border: none;
+}
+
+section#principal .esquerda .newcard li label {
+    padding-left: 10px;
+}
+
+section#principal .esquerda .newcard li.addcard {
+    border: none;
+}
+
+button {
+    width: 340px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #84d654;
+}
+
+::-webkit-input-placeholder {
+    color:  #c4cbd0;
+}
+
+
+
+/*PRINCIPAL.DIREITA*/
+
+
+
+
+section#principal .direita {
+    width: 50%;
+    height: 730px;
+    background-color: #ebebeb;
+    padding-right: 50px;
+    
+}
+
+.direita .produtos li {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 3px solid #dbdbdb;
+}
+
+.direita ul li img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 10px;
+}
+
+ .direita ul li label.nome{
+    font-size: 12px;
+    font-weight: 700;
+    color: #777879;
+    padding-top: 10px;     
+}
+
+.produtos small {
+    font-size: 12px;
+    font-weight: 700;
+    color: #777879;
+    float: right;
+    padding-top: 5px;
+}
+
+.direita ul li label.quant {
+    font-size: 10px;
+    font-weight: 700;
+    color: #9c9c9c;
+}
+
+.direita ul li label.cor {
+    font-size: 10px;
+    font-weight: 200;
+    color: #4a4a4a;
+} 
+
+.direita ul li.ultima {
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+.direita .subtotal li{
+    display: flex;
+    text-transform: capitalize;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777879;
+    border: none;
+}
+
+.direita .subtotal small {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777879;
+    float:right;
+}
+
+
+
+total{
+    font-size: 12px;
+    font-weight: 700;
+    color: #777879;
+}
+ 
